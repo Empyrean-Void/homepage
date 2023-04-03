@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
 
 :root {
-  --bg: #1e2127;
-  --fg: #abb2bf;
-  --secondaryFg: #b3b3b3;
-  --containerBg: #282c34;
+  --bg: #2e3440;
+  --fg: #deddda;
+  --secondaryFg: #d04c4c;
+  --containerBg: var(--bg);
   --searchBg: var(--containerBg);
   --scrollbarColor: var(--bg);
   --fontFamily: "Iosevka Nerd", monospace;
@@ -60,19 +60,6 @@ body {
   text-align: center;
 }
 
-/* .weather-container { */
-/*   width: 30%; */
-/*   background-color: var(--containerBg); */
-/*   padding: 1em; */
-/*   border-radius: 3px; */
-/*   font-family: var(--fontFamily); */
-/*   color: var(--fg); */
-/*   text-align: center; */
-/* } */
-/* .inline { */
-/*   display: inline-block; */
-/* } */
-
 #bookmark-container {
   display: flex;
   flex-direction: row;
@@ -101,7 +88,9 @@ body {
 .bookmark-set {
   padding: 1em;
   background-color: var(--containerBg);
-  border-radius: 3px;
+  border: solid;
+  border-radius: 2px;
+  border-color: var(--secondaryFg);
   font-family: var(--fontFamily);
   font-size: 0.85rem;
   width: 25%;
@@ -141,10 +130,10 @@ body {
 }
 .bookmark {
   text-decoration: none;
-  color: var(--secondaryFg);
+  color: var(--fg);
   display: block;
   margin: 0.5em 0em;
 }
 .bookmark:hover {
-  color: var(--fg);
+  color: var(--secondaryFg);
 }

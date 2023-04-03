@@ -25,11 +25,11 @@ const bookmarks = [
   {
     title: "Reddit",
     links: [
-      { name: "/r/bspwm", url: "https://reddit.com/r/bspwm" },
       {
         name: "/r/EndeavourOS",
         url: "https://reddit.com/r/EndeavourOS",
       },
+      { name: "/r/firefoxcss", url: "https://reddit.com/r/firefoxcss" },
       { name: "/r/unixporn", url: "https://reddit.com/r/unixporn" },
     ],
   },
