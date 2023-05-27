@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
 
 :root {
-  --bg: #2e3440;
-  --fg: #deddda;
-  --secondaryFg: #d04c4c;
+  --bg: #282828;
+  --fg: #ebdbb2;
+  --secondaryFg: #689d6a;
   --containerBg: var(--bg);
   --searchBg: var(--containerBg);
   --scrollbarColor: var(--bg);
-  --fontFamily: "Iosevka Nerd", monospace;
+  --fontFamily: "JetBrainsMono Nerd Font", monospace;
 }
 
 body {
